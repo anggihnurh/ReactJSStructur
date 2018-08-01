@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
+//STATEFULL structur, because this class can save a data and as a parrent component
 
-class App extends Component {
-    state = {
-        key: 'value'
+import React, { Component } from 'react';   //import Component from react
+
+class App extends Component {  // name of the class. class App is a Component
+    state = {               // Variabel can  save a value, like string, object, number,array
+        key: 'value'        
     }
 
-    render() {
-        return (
-            <div>
+    render() {              //render for show the code
+        return (            //to return the code to render, so it will show in the browser
+            <div>           // tag wrapper in html, but this is important thing. You must keep all of your code inside this tag
 
             </div>
         )
@@ -15,4 +17,4 @@ class App extends Component {
 
 }
 
-expoort default App;
+expoort default App;            // to export class App
